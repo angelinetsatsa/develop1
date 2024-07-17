@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Weather App</title>
+  <link rel="stylesheet" href="Weather.css">  
+</head>
+
+<body>
+  <h1>My Weather Application</h1>
+
+  <div>
+    <input type="text" id="cityInput" placeholder="Enter City Name" />
+    <button id="search-button">Get Weather</button>
+  </div>
+
+  <div id="weather-container">    
+    <h2 id="city-name"></h2>
+    <p id="temperature"></p>
+    <p id="humidity"></p>
+    <p id="wind-speed"></p>
+    <p id="description"></p>
+  </div>
+ <div>
+  <button  onclick="reset()"> Reset </button>
+ </div>
+ 
+
+
+  <script src = "Weather.js"> </script>
+   
+</body>
+</html>
